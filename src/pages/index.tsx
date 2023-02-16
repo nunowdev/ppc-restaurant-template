@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import { Navbar } from "./components/Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 
 import Menu from "../components/Menu/Menu";
-import Promotion from "./components/Promotion/Promotion";
+import Promotion from "../components/Promotion/Promotion";
 import Form from "../components/Form/Form";
 import Contact from "../components/Contact/Contact";
 import About from "../components/About/About";

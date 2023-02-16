@@ -11,7 +11,7 @@ import {
   OpenMenuButton,
 } from "./style";
 
-export function Navbar() {
+function Navbar() {
   const props = {
     navTitle: "ciciano",
     navItems: ["Home", "Gallery", "Menus", "Contact"],
@@ -56,3 +56,5 @@ export function Navbar() {
     </Container>
   );
 }
+
+export default Navbar;

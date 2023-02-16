@@ -47,16 +47,7 @@ function Contact() {
           <Copyright>
             @Copyrights Reserved 2023 - Powered By Cloudinfo
           </Copyright>
-          <HeroRestaurantAward
-            id="restaurant_award"
-            className="restaurant_award"
-          >
-            <img
-              src="https://uploads-ssl.webflow.com/6239aa5f4b436d4a462801ea/6239b6e7ab9ba9814b1e61a0_Group%20916.png"
-              alt=""
-              className="contact_award"
-            />
-          </HeroRestaurantAward>
+
           <Socials>
             <img
               src="https://uploads-ssl.webflow.com/6239aa5f4b436d4a462801ea/623c43f9a48b9056997f68a4_facebook.svg"

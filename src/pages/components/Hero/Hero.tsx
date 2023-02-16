@@ -9,7 +9,7 @@ import {
   HeroRestaurantAward,
 } from "./style";
 
-export function Hero() {
+function Hero() {
   return (
     <Container maxWidth="xl">
       <HeroContainer>
@@ -31,3 +31,5 @@ export function Hero() {
     </Container>
   );
 }
+
+export default Hero;

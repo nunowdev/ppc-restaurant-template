@@ -2,7 +2,7 @@ import * as React from "react";
 import { Container } from "@mui/material";
 import { FormContainer, FormInput, FormQuestion } from "./style";
 
-export function Form() {
+function Form() {
   return (
     <Container maxWidth="md">
       <FormContainer>
@@ -34,3 +34,5 @@ export function Form() {
     </Container>
   );
 }
+
+export default Form;

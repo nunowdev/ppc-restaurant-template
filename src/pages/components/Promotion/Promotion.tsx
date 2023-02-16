@@ -1,7 +1,7 @@
 import * as React from "react";
 import { PromotionContainer, PromotionText } from "./style";
 
-export function Promotion() {
+function Promotion() {
   return (
     <PromotionContainer>
       <img
@@ -15,3 +15,5 @@ export function Promotion() {
     </PromotionContainer>
   );
 }
+
+export default Promotion;

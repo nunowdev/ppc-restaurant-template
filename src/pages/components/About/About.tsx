@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import { AboutContainer, AboutLeft, AboutRight } from "./style";
 import { HeroDiscoverButton } from "../Hero/style";
 
-export function About() {
+function About() {
   return (
     <Container maxWidth="xl">
       <AboutContainer>
@@ -50,3 +50,5 @@ export function About() {
     </Container>
   );
 }
+
+export default About;

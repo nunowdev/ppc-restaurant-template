@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import { MenuContainer, MenuItem, MenuItems } from "./style";
 import { HeroDiscoverButton } from "../Hero/style";
 
-export function Menu() {
+function Menu() {
   return (
     <Container maxWidth="xl">
       <MenuContainer>
@@ -53,3 +53,5 @@ export function Menu() {
     </Container>
   );
 }
+
+export default Menu;
